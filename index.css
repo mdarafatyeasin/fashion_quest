@@ -289,12 +289,13 @@ p {
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 426px) {
+    
     .ipad {
         display: block;
     }
     .padimg img {
-        max-width: 60%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -302,7 +303,7 @@ p {
         display: block;
     }
     .hedImg img{
-        max-width: 60%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -310,8 +311,15 @@ p {
         display: block;
     }
     .pcImg img{
-        max-width: 60%;
+        max-width: 100%;
         height: auto;
+        margin-top: 20px;
+    }
+    .pcInfo{
+        padding: 0;
+    }
+    .logo img {
+        width: 100px;
     }
 }
 
@@ -340,7 +348,7 @@ p {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 426px) {
     .miniCards {
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
