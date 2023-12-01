@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1a187a;
+    height: 88px;
+}
+
+.allContent{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    width: 70%;
+}
+
+
+.searchBar{
+    display: flex;
+}
+.searchBar input{
+    height: 48px;
+    width: 90%;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+.searchBar span{
+    height: 48px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+    font-size: 30px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: rgb(161, 161, 161);
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+.banner{
+    height: 100px;
+}
+
+.carousel-item {
+    height: 80vh;
+}
+
+.carosol{
+    background-image: url(./asset/background_img.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+.slideItem{
+    display: flex;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s1img img{
+    height: 550px;
+}
+.s1text h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.s1text h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.philight{
+    font-weight: 600;
+}
+
+.shopNowBtn{
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    background-color: #1a187a;
+    color: white;
+    font-weight: 600;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+
+.productInfo{
+    margin-top: 57vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.padimg img{
+    height: 300px;
+}
+
+.ipad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.ipadInfo{
+    padding-right: 20px;
+}
+
+.headphone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(213, 213, 213);
+}
+
+.hedImg img{
+    height: 300px;
+}
+
+.headInfo{
+    padding-right: 20px;
+}
+
+.pc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(250 255 229);
+}
+
+.pcImg img{
+    height: 200px;
+}
+
+.pcInfo{
+    padding-left: 60px;
+}
+
+.miniCard{
+    background-color: gainsboro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 55px;
+}
+
+.miniCard span{
+    font-size: 60px;
+}
+
+.miniCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    grid-gap: 20px;
+    
+}
+
+.catagories{
+    width: 80%;
+    margin: auto;
+}
+
+.catagoriesTitle{
+    margin-top: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.card{
+    margin: auto;
+    background-color: rgb(195, 12, 12);
+}
+
+
+.saleSection{
+    margin-top: 40px;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    background-color: rgb(234 205 234);
+}
+
+.saleSection div img{
+    height: 300px;
+}
+
+.saleSection div h1,p{
+    text-align: center;
+}
